@@ -1,0 +1,405 @@
+
+.swiper-container {
+	width:100%;
+    overflow: hidden;
+    height:170vw;
+}
+.swiper-slide {
+    height: auto;
+}
+#top{
+	width: 100%;
+	height: 13vw;
+	background: rgba(254, 246, 246, 0.5);
+	padding-top: 1.09%;
+	position: relative;
+	z-index: 20;
+}
+#top .topl,#top .topz,#top .topr{
+	margin-left: 3%;
+	width: 9%;
+	position: absolute;
+}
+#top .topl img,#top .topr img{
+	position: absolute;
+	margin-top: 31%;
+}
+#top .topr{
+	margin-left: 90%;
+}
+#top .topl img,.topr img,.topz img{
+	width: 57%;
+	top: 23%;
+}
+#top .topr img{
+	margin-top: 35%;
+}
+.topz img{
+	width: 6vw;
+	position: absolute;
+	margin-left: 1.5%;
+	margin-top: -0.5%;
+}
+#top .topz{
+	width: 74%;
+	height: 9vw;
+	border-bottom: 1px solid #130ef5;
+	margin-left: 12%;
+	position: absolute;
+	margin-top: 1.1%;
+}
+#top .topz input{
+	width: 100%;
+	border: 0px;
+	height: 2.4em;
+	padding-left: 11%;
+	padding-top: 1%;
+	font-size: 3.4vw;
+	background:rgba(0, 0, 0, 0);
+}
+ #yido .toptu,.toptu img{
+	width: 100%;
+	position: relative;
+}
+#yido .toptu img{
+	position: absolute;
+}
+#yido .toptu p{
+	position: absolute;
+	width: 22%;
+	margin-top: 32%;
+	color: #fff;
+	margin-left: 3%;
+	font-size: 3vw;
+}
+#yido .toptu p .tua{
+	font-size: 4vw;
+	margin-top: -3%;
+	position: absolute;
+	margin-left: 1%;
+}
+#yido .toptu p .tub{
+	margin-left: 8%;
+}
+#yido .toph{
+	width: 100%;
+	height: 14vw;
+	background: #ffcc00;
+	position: relative;
+	padding-top: 5%;
+	margin-top: 39%;
+}
+#yido .toph .topha{
+	width: 90%;
+	margin: 0px auto;
+	font-size: 3vw;
+}
+#yido #cententb{
+	width: 95%;
+	margin: 8% auto;
+	margin-bottom: 0%;
+}
+#yido .cena{
+	width: 98%;
+	font-size: 3.5vw;
+	font-family: "微软雅黑";
+	line-height: 1.5em;
+}
+#yido .cenb{
+	float: right;
+	width: 27%;
+	border: 0.5vw solid red;
+	margin-left: 2%;
+}
+#yido .cenb img{
+	width: 100%;
+	height: 24.7vw;
+}
+#yido .cena .naa{
+	margin-left: 19%;
+	font-size: 3.7vw;
+	font-weight: bold;
+}
+#yido .cena .nab{
+	margin-bottom: -1em;
+    display: block;
+}
+#yido #fot{
+	width: 100%;
+	height: 12vw;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	z-index:1;
+}
+#yido .ofu{
+	width: 100%;
+	height: 100%;
+}
+#yido .ofu li{
+	width: 7%;
+	float: left;
+	margin:0 5% 0 8%;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 1%;
+	height: 3em;
+	color: #979797;	
+}
+#yido .ofu li img{
+	width: 75%;
+}
+#yido .ofu .fud,#yido .ofu .fudb{
+	display: none;
+}
+#yido .ofu li .fuda{
+	display: inline;
+}
+#yido .ofu li .fubl{
+	display: inline;
+	z-index: -1;
+	position: relative;
+}
+#yido .ofu .fua{
+	font-size: 2.6vw;
+	margin-top: 6.1%;
+	position: absolute;
+	margin-left: -5.2%;
+	z-index: -1;
+} 
+#yido #toban{
+	position:relative;
+	margin-top:-13vw;
+}
+
+#yido #toxi,#yido #shqv,#yido #lunt,#yido #yinh{
+    width: 100%;
+    height: 9em;
+    font-size: 15vw;
+    text-align: center;
+    line-height: 129vw;
+    background: beige;	
+	display: none;
+}
+#yido #shqv{
+	background: burlywood;
+}
+#yido #lunt{
+	background: yellow;
+}
+#yido #yinh{
+	background: yellowgreen;
+}
+
+
+
+#pin{
+	width: 100%;
+	height: 100em;
+	background: yellowgreen;
+	text-align: center;
+	line-height: 35em;
+	display: none;
+}
+#pin .centent{
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+	font-style: italic;
+}
+
+
+@media (min-width: 415px){
+	#yido{
+		display: none;
+	}
+}
+
+
+@media (min-width: 415px) and (max-width: 1367px){
+	#pin{
+		display: block;
+	}
+}
+
+@media (max-width: 1366px){
+	#pcl,#tuo{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+#pcl,#pcl #pctop,#pcl #pctop{
+	width: 100%;
+	height: 100%;
+}
+#pctop .top{
+	width: 100%;
+	height: 100%;
+}
+#pctop .top .topim{
+	position: absolute;
+	width: 100%;
+	height: 17vw;
+}
+#pctop .top .topzho{
+	width: 50%;
+	height: 10em;
+	margin: 0px auto;
+	padding-top: 12%;
+}
+#pctop .top .topzho .dim{
+    width: 6.3vw;
+    position: absolute;
+    background: #fff;
+    height: 1.6vw;
+    margin-top: 2.5%;
+    left: 50%;
+    margin-left: -3%;
+}
+#pctop .top .topzho .dim img{
+	width: 37%;
+}
+#pctop .top .topzho .dim span{
+	display: block;
+	position: relative;
+	margin-top: -20%;
+	margin-left: 33%;
+	font-size: 0.8vw;
+}
+#pctop .top .topzho .topzoo{
+	width: 53.5%;
+	margin: 0px auto;
+	border: 0.26em solid rgba(0,0,0,0.1);
+	border-radius: 3px;
+	position: relative;
+}
+#pctop .top .topzho .inp1{
+	width: 92%;
+	height: 2.2em;
+	border: 0px;
+	position: relative;
+	top: -1.5%;
+	padding-left: 5%;
+	font-size: 0.75vw;
+}
+#pctop .top .topzho .inp2{
+	width: 8%;
+	height: 100%;
+	text-align: center;
+	border: 0px;
+	position: absolute;
+	font-size: 0.85vw;
+	background: rgba(0,0,0,0.3);
+}
+#pctop .top .topzho .topzoo img{
+	position: absolute;
+	width: 3.3%;
+	margin-left: -90.9%;
+	margin-top: 1.4%;
+}
+#pctop .top .topzho .topzoo .shol{
+	position: absolute;
+	width: 4%;
+	margin-left: 2%;
+	margin-top: 1.5%;
+}
+#pcl #content{
+	width: 100%;
+	position: relative;
+	margin-top: 5%;
+}
+#pcl #content .conleft{
+	width: 18%;
+	background: red;
+	height: 39em;
+	position: absolute;
+}
+#pcl #content .conleft .fttu{
+	background: #fff;
+	position: relative;
+	margin-left: 20%;
+	padding: 1%;
+	margin-top: -34%;
+	width: 58.5%;
+}
+#pcl #content .conleft .fttu img{
+	width: 100%;
+	height: 10.1vw;
+}
+#pcl #content .conleft ul{
+	width: 100%;
+	position: absolute;
+	margin-top: 43%;
+}
+#pcl #content .conleft ul li{
+	height: 3em;
+	margin-bottom: 4%;
+	margin-top: 1%;
+	background: bisque;
+}
+#pcl #content .conleft ul li input{
+	width: 11%;
+	cursor: pointer;
+	margin-left: 29%;
+	margin-top: 3%;
+}
+#pcl #content .conzo{
+	width: 82%;
+	height: 39em;
+	position: absolute;
+	top: 0.4%;
+	left: 18%;
+}
+#pcl #content .conzo .conzt,#pcl #content .conzo .conzb{
+	width: 100%;
+	height: 3em;
+	background: beige;
+}
+#pcl #content .conzo .conzb{
+	height: 36em;
+}
+#pcl #content .conzo .conzt .coztl,#pcl #content .conzo .conzt .coztr{
+	width: 50%;
+	height: 3em;
+	float: left;
+}
+#pcl #content .conzo .conzt .coztr{
+	background: bisque;
+}
+#pcl #content .conzo .conzt .coztr .coztra,#pcl #content .conzo .conzt .coztr .coztrb{
+	float: left;
+	width: 50%;
+	height: 3em;
+	background: blanchedalmond;
+}
+#pcl #content .conzo .conzt .coztr .coztrb{
+	background: blueviolet;
+}
+#pcl #content .conzo .conzb .conzl,#pcl #content .conzo .conzb .conzr{
+	width: 25%;
+	height: 36em;
+	background: blue;
+	float: left;
+}
+#pcl #content .conzo .conzb .conzl{
+	width: 75%;
+}
+#pcl #content .conzo .conzb .conzr{
+	background: #269ABC;
+}
+#tuo{
+	width: 27%;
+	height: 22vw;
+	background: #fff;
+	position: fixed;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #484a4d;
+	margin-left: 37vw;
+}
